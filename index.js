@@ -5,4 +5,8 @@ function destructivelyAppendKitten(name) {
   return kittens.concat(name);
 }
 
+function destructivelyPrependKitten(name) {
+  return [name].concat(kittens);
+}
+
 function 
